@@ -123,14 +123,14 @@ export const PerspectiveDetail = () => {
         <>
           <Card>
             <div className="space-y-6">
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-navy-900 bg-[#1B3557]/5 rounded-xl px-6 py-3">Objective</div>
                 <div className="col-span-3 text-navy-900 bg-gray-300 rounded-xl px-6 py-3">
                   Develop A Digital Transformation Strategy Aligned With The Organization's Strategy And The Objectives Of Saudi Vision 2030.
                 </div>
               </div>
 
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-navy-900 bg-[#1B3557]/5 rounded-xl px-6 py-3">Implementation Requirements</div>
                 <div className="col-span-3 text-navy-900 bg-gray-300 rounded-xl px-6 py-3">
                   <p className="mb-2">Prepare A Digital Transformation Strategy For The Transition To Electronic Government Transactions, Including The Following:</p>
@@ -141,21 +141,21 @@ export const PerspectiveDetail = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-navy-900 bg-[#1B3557]/5 rounded-xl px-6 py-3">Evidence Documents</div>
                 <div className="col-span-3 text-navy-900 bg-gray-300 rounded-xl px-6 py-3">
                   Submit The Approved Digital Transformation Strategy That Includes All The Requirements Of This Standard, Provided That It Has Been Approved Within A Period Not Exceeding 36 Months.
                 </div>
               </div>
 
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-navy-900 bg-[#1B3557]/5 rounded-xl px-6 py-3">Related Regulations</div>
                 <div className="col-span-3 text-navy-900 bg-gray-300 rounded-xl px-6 py-3">
                   Council Of Ministers Resolution No. (40) Dated 27/2/1427H, Clause (16).
                 </div>
               </div>
 
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 gap-4">
                 <div className="text-navy-900 bg-[#1B3557]/5 rounded-xl px-6 py-3">Scope</div>
                 <div className="col-span-3 text-navy-900 bg-gray-300 rounded-xl px-6 py-3">
                   All Government Entities.
@@ -200,7 +200,7 @@ export const PerspectiveDetail = () => {
           </Card>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className='col-span-2'>
+            <div className='md:col-span-2'>
               <Card>
                 <h3 className="font-bold text-navy-900 mb-4">Comments</h3>
                 <div className="space-y-4">
