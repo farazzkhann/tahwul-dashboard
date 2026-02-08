@@ -165,7 +165,7 @@ export const PerspectiveDetail = () => {
           </Card>
           <Card>
             <h3 className="font-bold mb-4">Leaders</h3>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap gap-6">
               <div className="flex items-center gap-3 bg-gray-300 rounded-xl px-4 py-3">
                 <img
                   src={AhmedIcon}
