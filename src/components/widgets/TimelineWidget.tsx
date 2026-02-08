@@ -4,7 +4,15 @@ import { timelineEvents } from '../../data/mockData';
 export const TimelineWidget = () => {
 
   const completedCount = timelineEvents.filter(e => e.status === 'completed').length;
-  const completedWidth = ((completedCount - 1) / (timelineEvents.length - 1)) * 100;
+
+  let completedWidth = 0;
+  if (completedCount === 0) {
+    completedWidth = 0;
+  } else if (completedCount === timelineEvents.length) {
+    completedWidth = 100;
+  } else {
+    completedWidth = 5 + ((completedCount - 1) * 20);
+  }
 
   return (
     <Card className="bg-white">
